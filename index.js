@@ -7,6 +7,9 @@ const server = http.createServer(function (request, response) {
     if (request.url == '/') {
         content = fs.readFileSync('index.html', 'utf-8');
     }
+    else if (request.url == '/homework2.js') {
+        content = fs.readFileSync('homework2.js', 'utf-8');
+    }
     response.end(content);
 });
 
