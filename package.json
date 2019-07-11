@@ -1,7 +1,6 @@
 {
   "name": "homework_lecture2",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "index.js",
@@ -9,5 +8,14 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onridge/homework2_practice.git"
+  },
+  "bugs": {
+    "url": "https://github.com/onridge/homework2_practice/issues"
+  },
+  "homepage": "https://github.com/onridge/homework2_practice#readme",
+  "description": ""
 }
